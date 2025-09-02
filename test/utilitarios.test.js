@@ -101,7 +101,7 @@ describe("Classe Utilitarios", () => {
     });
 
     test("Teste validando se retorna erro ao dividir por valores impossíveis", () => {
-        expect(() => { utilitarios.dividir(1, 0); }).toThrow("Por zero não há divisão");
+        expect(() => { utilitarios.dividir(1, 0); }).toThrow("Divisão por zero");
     });
 
     test("Teste validando se verifica o tipo do número", () => {
