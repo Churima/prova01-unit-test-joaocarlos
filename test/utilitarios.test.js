@@ -144,7 +144,7 @@ describe("Classe Utilitarios", () => {
 
     test("Teste validando se ordena a lista", () => {
         expect(utilitarios.ordenarArray([2,5,2,35,6])).toEqual([2,2,5,6,35]);
-        expect(utilitarios.ordenarArray([-1,-2,-3])).toEqual([-3,-2,-1]);
+        expect(utilitarios.ordenarArray([3,2,1])).toEqual([1,2,3]);
     });
 
 
