@@ -66,7 +66,7 @@ describe("Classe Utilitarios", () => {
     test("Teste validando se texto é palíndromo", () => {
         expect(utilitarios.ehPalindromo("ana")).toBe(true);
         expect(utilitarios.ehPalindromo("salas")).toBe(true);
-        expect(utilitarios.ehPalindromo("arara")).toBe(false);
+        expect(utilitarios.ehPalindromo("até")).toBe(false);
     });
 
     test("Teste validando se soma corretamente os valores", () => {
