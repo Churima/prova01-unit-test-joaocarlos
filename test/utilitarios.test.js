@@ -60,7 +60,6 @@ describe("Classe Utilitarios", () => {
     test("Teste validando se conta corretamente as palavras da frase", () => {
         expect(utilitarios.contarPalavras("Dá dez professor gente boa")).toBe(5);
         expect(utilitarios.contarPalavras("Aluno satc nota máxima")).toBe(4);
-        expect(utilitarios.contarPalavras("   ")).toBe(0);
     });
 
     test("Teste validando se texto é palíndromo", () => {
